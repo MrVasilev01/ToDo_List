@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+
+            <div class="main">
+                <form id="form">
+                    <p class="alert"></p>
+                    <h3 class="title">Todo List</h3>
+                    <div class="control">
+                        <input type="text" id="entry" placeholder="type some stuff">
+                        <button type="submit" class="btn submit-btn">Submit</button>
+                        <button type="button" class="btn cancel-btn d-none">Cancel</button>    
+                    </div>
+                </form>
+
+                <ul id="todo-list" class="list-container">
+                    <!-- <li class="list-item">
+                        <p class="text">Lorem psms dolor sit.</p>
+                        <i class="bi bi-pencil-square"></i>
+                        <i class="bi bi-check-lg"></i>
+                        <i class="bi bi-trash"></i>
+                    </li> -->
+                </ul>
+                
+                <button class="btn clear-btn d-none">Clear items</button>
+
+            </div> 
+        </div>
+    </div>
+
+    <script src="main_2.js"></script>
+</body>
+</html>
